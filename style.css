@@ -1,8 +1,22 @@
-
-        body{
-            background-color: rgb(193, 243, 255);
-            color: blueviolet; 
-        }
-        h1{
-            color: brown;
-        }
+@import url(nomalize.css);     
+body{
+    background-color: rgb(193, 243, 255);
+    color: blueviolet; 
+    margin: 0px;
+}
+h1{
+    width: 300px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 5px solod salmon;
+    background-color: antiquewhite;
+    color: brown;
+    font-size: 300%;
+    text-align: center;
+    line-height:1;
+}
+#container{
+    idth: 980px;
+    background-color: rgb(194, 194, 240);
+    margin:0px auto;
+}
