@@ -1,33 +1,43 @@
 @charset "utf-8";   
 body{
     background-color: rgb(193, 243, 255);
+    background-image: url(img/網頁背景.jpg);
+    background-attachment: fixed;
+    background-size: 1550px 230px;
+    background-repeat: repeat-x;
     color: blueviolet; 
     margin: 0px;
 }
 h1{
+    text-shadow: 1px 1px 2px #f6bb9e;
+    box-shadow: 0 0 10px #f38f5d;
+    background-image: linear-gradient(to bottom,#fbfbfb,rgb(203, 73, 17));
     width: 300px;
     margin: 40px auto;
     padding: 30px;
-    border: 5px solod rgb(60, 10, 5);
+    border: 5px solid rgb(247, 194, 142);
     background-color: antiquewhite;
-    color: brown;
+    color: rgb(143, 93, 57);
     font-size: 300%;
     text-align: center;
     line-height:1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-attachment: fixed;
+    
 }
 main{
     width:980px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(246, 203, 188);
     margin:0px auto;
     padding:40px 80px;
-    border:1px soild #f6bb9e
+    border:1px solid #f6bb9e
 
 }
 h2{
     padding:10px;
     margin-bottom: 30px;
     border:1px dottted #94c8b1;
-    border-left: 10px soild darkkhaki;
+    border-left: 10px solid darkkhaki;
     color: #6fbb9a
 
 }
@@ -36,4 +46,8 @@ h2{
 }
 h1,header,footer,nav{
     text-align: center;
+}
+
+{
+text-shadow: 2px 1px 3px #333333;
 }
