@@ -65,6 +65,35 @@ h1,header,footer,nav{
 {
 text-shadow: 2px 1px 3px #333333;
 }
+.more::after{
+text-align: right;
+content:url(img/箭頭.jpg);
+margin-left: 3px;
+vertical-align:muddle;
+}
+
+a[href^="mailto:"]::after{
+    content:url(img/郵件.png);
+    margin-left: 5px;
+    vertical-align: middle;
+    
+}
+.menu li{
+    list-style-type: none;
+    border:1px solid #6fbb9a ;
+        width: 180px;
+}
+.menu a{
+    background: #f68c58;
+    color: aqua;
+    padding: 10px;
+    display: block;
+
+}
+.menu a:hover{
+    background: #94c8b1;
+}
+.
 
 
 
