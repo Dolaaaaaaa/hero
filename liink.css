@@ -24,14 +24,18 @@ h1{
     background-position: right top;
     background-repeat: no-repeat;
 }
+section{
+    padding: 10px;
+    font-size: 20px;
+}
+footer{
+    font-size: 22px;
+}
 .imgL{
     float: left;
     margin-right: 20px;
 }
-.imgR{
-    float: right;
-    margin-left: 20px;
-}
+
 .clear{
     clear: both;
 }
@@ -56,44 +60,14 @@ main{
 
 }
 h2{
-   
-    padding:10px;
+       padding:10px;
     margin-bottom: 30px;
     border: 1px dotted #784200;
     border-left: 10px solid rgb(236, 184, 147);
     color: #de974a
-    
-}
+    }
 .round{
     border-radius: 50%;
 }
 h1,header,footer,nav{
     text-align: center;
-
-
-
-.menu ul{
-        width: 960px;
-        margin: 40px auto;
-        list-style-type: none;
-        border:1px solid #e388f1;
-        display: inline-block;
-        width: 180px;
-        margin: 0pt;
-        }
-.menu a{
-            display: block;
-            padding: 10px;
-            background: #cd30d3;
-            color: #cb74d1;
-            border-radius: 8px;
-            text-decoration: none;
-        }
-.menu a:hover {
-        background: #f68c58;
-    }
-
-
-
-
-
