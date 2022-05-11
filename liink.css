@@ -4,8 +4,107 @@ body{
     background-color: #faf8de;
     background-size: 1550px 230px;
     color: rgb(0, 0, 0); 
-    margin: 0px;
+    margin: 20px;
    }
+nav{
+    background-color: rgb(171, 119, 221);
+    text-align:center;
+}
+nav ul{
+    margin: 0px;
+}
+
+nav li{
+    list-style-type:none;
+    /*標題水平排列*/
+    display: inline-block;   
+}
+nav li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+nav li a:hover{
+    background-color: rgb(147, 20, 202);
+    color: rgb(255, 255, 255);
+    transition:background-color 2s linear, color 2s ease-in-out;
+}
+#menu {
+    background-color: #faf8de;
+    text-align: center;
+    margin: 0px;
+    list-style-type: none;
+	width:800px;
+	height:30px;
+}
+#menu ul {
+    text-align: center;
+	list-style-type:none;
+	margin:50px;
+	padding:0;
+	overflow:auto;
+  overflow: ;
+}
+
+#menu ul li {
+	float:left;
+}
+
+#menu ul li a {
+    text-decoration: none;
+	display:block;
+	float:left;
+	height:30px;
+	width: 100px;
+	text-align: center;
+}
+#menu ul li ul {
+	position:absolute;
+	width:100px;
+	overflow:visible;
+	clear:left;
+	margin-top: 30px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+
+#menu ul li ul li {
+	float:none;
+	text-align: right;
+    text-decoration: none;
+}
+#menu ul li ul li a {
+	float:none;
+	width: 100px%;
+}
+#menu ul li ul li ul {
+	margin-top: -20px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 80px;
+	width: 100%;
+}
+#menu ul li ul {
+	visibility:hidden;
+}
+#menu ul li:hover ul {
+	visibility:visible;
+}
+#menu ul li:hover ul li ul {
+	visibility:hidden;
+}
+#menu ul li ul li:hover ul {
+	visibility:visible;
+}
+#menu ul li ul li:hover ul li ul {
+	visibility:hidden;
+}
+#menu ul li ul li ul li:hover ul {
+		visibility:visible;
+}
+
 div{
     background-color: #f8f3a5;
     font-size: 130%;
@@ -41,7 +140,7 @@ footer{
     clear: both;
 }
 a{
-    color:#0f25e8
+    color:#780fe8
 }
 
 #contents{
