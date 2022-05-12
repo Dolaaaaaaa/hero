@@ -1,0 +1,27 @@
+header{
+    height: 200px;
+    background-color: rgb(166, 239, 215);
+}
+aside{
+    height: 200px;
+    background-color: rgb(141, 160, 238);
+    width: 20%;
+    float: left;
+}
+section{
+    background-color: rgb(241, 162, 194);
+    width: 80%;
+
+    float: right;
+}
+footer{
+    height: 100px;
+    width: 1000px;
+    background-color: rgb(192, 241, 152);
+    clear: both;
+}
+.post{
+    text-align: center;
+    padding: 10px;
+    float:left;
+}
