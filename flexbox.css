@@ -47,6 +47,7 @@ nav a:hover{
     flex-wrap: wrap;
     justify-content: center;
     padding: 0px;
+    
 }
 #photolist li{
     list-style-type: none;
@@ -55,6 +56,7 @@ nav a:hover{
 #photolist img{
     border-radius: 10%;
     box-shadow: 5px 5px 10px gray;
+
 }
 #photolist.emptyitem{
     width: 200;
