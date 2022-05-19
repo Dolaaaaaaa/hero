@@ -46,7 +46,7 @@ nav a:hover{
 #photolist ul{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 0px;
     
 }
@@ -59,8 +59,8 @@ nav a:hover{
     box-shadow: 5px 5px 10px gray;
 
 }
-#photolist .emptyitem{
-    width: 200px;
+.emptyitem{
+    width: 300px;
 }
 .gotop{
     font-size: 60px;
