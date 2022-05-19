@@ -37,6 +37,7 @@ nav a:hover{
     justify-content: space-around;
     align-items: center;
     background-color: rgba(205, 192, 255, 0.8);
+   
 }
 .title{
     text-align: center;
@@ -58,8 +59,8 @@ nav a:hover{
     box-shadow: 5px 5px 10px gray;
 
 }
-#photolist.emptyitem{
-    width: 200;
+#photolist .emptyitem{
+    width: 200px;
 }
 .gotop{
     font-size: 60px;
