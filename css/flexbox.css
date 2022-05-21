@@ -56,8 +56,8 @@ nav a:hover{
     border-radius: 10%;
     box-shadow: 5px 5px 10px gray;
 }
-#photolist.emptyitem{
-    width: 200;
+#photolist .emptyitem{
+    width: 300px;
 }
 .gotop{
     font-size: 60px;
